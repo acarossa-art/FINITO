@@ -9,9 +9,7 @@ workflows:
       - name: Get Flutter packages
         script: flutter pub get
       - name: Build Android
-        script: |
-          cd android
-          ./gradlew assembleDebug
+        script: flutter build apk --debug
     artifacts:
       - build/**/outputs/**/*.apk
   ios-workflow:
