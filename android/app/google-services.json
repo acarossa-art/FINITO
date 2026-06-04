@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "646776613782",
+    "project_id": "finito-1c580",
+    "storage_bucket": "finito-1c580.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646776613782:android:3a0aee373343d81bc40bb7",
+        "android_client_info": {
+          "package_name": "com.mycompany.finito"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDazRLa9hOqQab4RaDTSeKt2PO1fEplpR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
