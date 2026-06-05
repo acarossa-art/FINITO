@@ -8,8 +8,8 @@ workflows:
     scripts:
       - name: Get Flutter packages
         script: flutter pub get
-      - name: Upgrade Android project
-        script: flutter build apk --debug 2>/dev/null || true && flutter build apk --debug
+      - name: Build Android
+        script: flutter build apk --debug
     artifacts:
       - build/**/outputs/**/*.apk
   ios-workflow:
