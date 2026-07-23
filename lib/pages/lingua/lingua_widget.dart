@@ -31,6 +31,7 @@ class _LinguaWidgetState extends State<LinguaWidget> {
     setState(() {
       _lingua = key;
     });
+    if (!mounted) return;
     Navigator.push(context,
       MaterialPageRoute(builder: (context) => SettingWidget(lingua: key)),
     );

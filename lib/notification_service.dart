@@ -103,8 +103,8 @@ class NotificationService {
 
     final prefs = await SharedPreferences.getInstance();
     final phrases = Frasi.tutte[language] ?? Frasi.tutte['english']!;
-    final orderKey = 'phrase_order_' + language;
-    final positionKey = 'phrase_position_' + language;
+    final orderKey = 'phrase_order_$language';
+    final positionKey = 'phrase_position_$language';
     var order = prefs.getStringList(orderKey)?.map(int.parse).toList() ?? <int>[];
     var position = prefs.getInt(positionKey) ?? 0;
 
