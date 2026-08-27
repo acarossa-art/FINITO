@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'cloud_messaging_service.dart';
 import 'notification_service.dart';
 import 'pages/home_page/home_page_widget.dart';
 
@@ -10,8 +11,10 @@ Future<void> main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
   await NotificationService.initialize();
+  await CloudMessagingService.initialize();
   runApp(const MyApp());
   NotificationService.openInitialNotification();
+  CloudMessagingService.openInitialMessage();
   NotificationService.replenishIfNeeded();
 }
 
