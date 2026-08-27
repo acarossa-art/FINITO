@@ -1,4 +1,4 @@
-package com.arianna.finito_app
+package com.ariannacarossa.finito
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -54,7 +54,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDazRLa9hOqQab4RaDTSeKt2PO1fEplpR0',
-    appId: '1:646776613782:android:ca88dadc4feb9cc6c40bb7',
+    appId: '1:646776613782:android:19d7a06f78c19137c40bb7',
     messagingSenderId: '646776613782',
     projectId: 'finito-1c580',
     storageBucket: 'finito-1c580.firebasestorage.app',

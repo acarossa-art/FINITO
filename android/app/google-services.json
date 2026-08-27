@@ -26,6 +26,25 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:646776613782:android:19d7a06f78c19137c40bb7",
+        "android_client_info": {
+          "package_name": "com.ariannacarossa.finito"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDazRLa9hOqQab4RaDTSeKt2PO1fEplpR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:646776613782:android:3a0aee373343d81bc40bb7",
         "android_client_info": {
           "package_name": "com.mycompany.finito"
