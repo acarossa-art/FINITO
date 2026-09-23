@@ -1,5 +1,4 @@
 import '../../notification_service.dart';
-import '../../cloud_messaging_service.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -45,10 +44,6 @@ class _SettingWidgetState extends State<SettingWidget> {
       _intensita = valore;
     });
     await NotificationService.scheduleNotifications(valore, widget.lingua);
-    await CloudMessagingService.syncPreferences(
-      language: widget.lingua,
-      intensity: valore,
-    );
   }
 
   @override
